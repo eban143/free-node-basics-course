@@ -1,2 +1,3 @@
-# free-node-basics-course
-Repository that supports my Free Node Basics Course
+Welcome to my Free Node Basics course repo.
+
+The text that supports this code and repo is available over at Friendly Testers blog
