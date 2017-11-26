@@ -1,0 +1,26 @@
+{
+  "name": "node-basics",
+  "version": "0.0.1",
+  "description": "A demonstration of npm init",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwinteringham/free-node-basics-course.git"
+  },
+  "keywords": [
+    "Node",
+    "Training"
+  ],
+  "author": "Mark Winteringham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwinteringham/free-node-basics-course/issues"
+  },
+  "homepage": "https://github.com/mwinteringham/free-node-basics-course#readme",
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  }
+}
