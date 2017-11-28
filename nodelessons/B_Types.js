@@ -9,8 +9,8 @@ var myFunction    = function(){
                         return "Hello";
                     }
 var myObject      = {
-    "myObjectsInt" : 33,
-    "myObjectsString" : "I live in an object"
+  "myObjectsInt" : 33,
+  "myObjectsString" : "I live in an object"
 }
 
 // Because myInt is an integer, Node allows me to do math with it
