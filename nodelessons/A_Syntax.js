@@ -13,6 +13,9 @@ var myVariable = "A string";
 // function is called.
 var myFunction = function ()
 {
+  // We can call functions to carry out other activites. Console.log will output
+  // whatever is inside the brackets to your console screen.
+  console.log();
   // We do cool stuff here
 }
 
