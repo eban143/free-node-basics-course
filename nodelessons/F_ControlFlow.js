@@ -22,6 +22,18 @@ if(cake === "fruit"){
   console.log("I like fruit cake");
 }
 
+// We can also ensure specific code is triggered based on a true
+// false decision by using if/else statements
+
+// If the two values match then trigger the code within the brackets
+if(cake === "sponge"){
+  console.log("I like sponge cake");
+// If the two values don't match then trigger the code within the else
+// brackets
+} else {
+  console.log("I don't like " + cake);
+}
+
 // Working with loops
 
 // This loop declares a variable called 'i' and sets it to 0.
