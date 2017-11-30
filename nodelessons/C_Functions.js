@@ -35,11 +35,21 @@ myFourthFunction(function(){
   console.log("Hello from function four");
 });
 
+// Functions can also return values to use later with the
+// return keyword
+function myFifthFunction(){
+  var math = 10 * 10;
+  return math;
+}
+
+var result = myFifthFunction();
+console.log("10 * 10 equals: " + result);
+
 // Let's declare a variable that has global scope
 var messageOne = "Hello from global variable"
 
 // Then let's declare a new function
-function myFifthFunction(){
+function mySixthFunction(){
   // Let's declare a variable that has local scope
   var messageTwo = "Hello from local variable"
   
@@ -49,13 +59,13 @@ function myFifthFunction(){
 
 // Then let's declare another function that uses
 // the local scope variable from the previous function
-function mySixFunction(){
+function mySeventhFunction(){
   console.log(messageOne);
   console.log(messageTwo);
 }
 
 // Calling the first method will return both messages
-myFifthFunction();
+mySixthFunction();
 // Calling the second method will return an error when
 // attempting to read the local variable
-mySixFunction();
+mySeventhFunction();

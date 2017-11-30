@@ -45,3 +45,7 @@ console.log(5 >= 5); // returns true as 5 is greater than or equal to 5
 console.log(typeof "Mark"); // returns String
 console.log(typeof 1);      // returns Number
 console.log(typeof true);   // returns Boolean
+
+// Demonstration of assignment
+var myInt = 13;        // The = sign means assign this value to this variable
+myObject = new Date(); // Using new creates an object that contains a constructor
