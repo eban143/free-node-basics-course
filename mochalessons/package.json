@@ -1,0 +1,14 @@
+{
+  "name": "mochalessons",
+  "version": "1.0.0",
+  "description": "A demo package to show how we can create quick shortcuts to run Mocha",
+  // Here we can set assign commands to keywords like 'test'
+  "scripts": {
+    "test": "mocha --reporter=xunit --reporter-options output=results.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwinteringham/free-node-basics-course.git"
+  },
+  "author": "Mark Winteringham"
+}
